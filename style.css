@@ -1,0 +1,359 @@
+.container{
+   display: flex;
+    justify-content: space-between;
+    background-color:rgb(155, 153, 153);
+    height: 60px;
+}
+.leftimg{
+    display: flex;
+    justify-content: left;
+   padding-top: 10px;
+   gap: 5px;
+   padding-left: 50px;
+}
+ .img1 img{
+    width: 60px;
+    height: 40px;
+    padding-left: 40px;
+    
+}
+.img1:hover{
+    background-color: rgb(47, 43, 43);}
+
+.img2 img{
+    width:140px;
+    height: 40px;
+   }
+   .img2:hover{
+    background-color: rgb(48, 42, 42);
+   }
+.img3 img{
+    width: 60px;
+}
+.img3:hover{
+    background-color: rgb(70, 63, 63);}
+
+
+.righticons{
+    display: flex;
+    color: white;
+    gap: 20px;
+    padding-right: 90px;
+    padding-top: 25px;
+}
+.righticons span:hover{
+    color: yellow;
+}
+.icon4 i:hover{
+    color: red;
+}
+.icon5 i:hover{
+    color: red;
+}
+.seconddiv{
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+.divborder{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+}
+.allenimg img{
+    width: 100px;
+    height: 40px;
+    padding-left: 70px;
+
+}
+
+.divtext{
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+.divtext a:hover{
+    border-bottom: 1px solid red;
+}
+.search{
+    padding-left: 120px;
+    padding-top: 15px;
+}
+.sale a{
+    color: red;
+}
+.banner img{
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 14px;
+    
+}
+.bannerbtm{
+    display: flex;
+    gap: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+}
+.image1 {
+    text-align: center;
+}
+.image2 {
+    text-align: center;
+}
+.image3 {
+    text-align: center;
+}
+.image4 {
+    text-align: center;
+}
+.image5 {
+    text-align: center;
+}
+.image6 {
+    text-align: center;
+}
+.categery{
+    background-color: rgb(236, 82, 82);
+    height: 220px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.allentxt{
+    padding-top: 5px;
+    padding-left: 30px;
+    justify-content: center;
+    font-family: monospace;
+    font-size: large;
+    width: 600px;
+    
+}
+
+.rs h5{
+    text-align:left;
+    padding-left: 30px;
+}
+.catbtm{
+    display: flex;
+    gap: 10px;
+    
+}
+.usecode{
+    padding-left: 30px;
+}
+.asapp{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.appstore img{
+    padding-top: 13px;
+}
+.playstore img{
+    padding-top: 13px;
+}
+.catcenter {
+    display: flex;
+
+}
+.qrcode img{
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+    gap: 100px;
+}
+.fresharrival{
+    text-align: center;
+    padding-top: 50px;
+}
+.freshimages {
+    display: flex;
+    gap: 30px;
+}
+.printshirt img{
+    padding-left: 80px;
+}
+.printshirt h2{
+   text-align: center;
+}
+.vacay h2{
+    text-align: center;
+ }
+ .kidswear h2{
+    text-align: center;
+ }
+ .suit h2{
+    text-align: center;
+ }
+ .vara{
+    padding-top: 50px;
+    padding-left: 80px;
+ }
+ .vara img{
+    width: 100%;
+    height: 100%;
+ }
+ .varatxt{
+    text-align: center;
+    padding-top: 40px;
+ }
+ .text2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+ }
+ .trend{
+    display: flex;
+    gap: 30px;
+ }
+ .trend img{
+    width: 320px;
+    
+ }
+ .trend1 img{
+    padding-left: 90px;
+ }
+  .trend1 h4{
+    text-align: center;
+   
+ }
+ .trend2 h4{
+    text-align: center;
+   
+ }
+ .trend3 h4{
+    text-align: center;
+   
+ }
+ .trend4 h4{
+    text-align: center;
+   
+ }
+ 
+
+/* //////////////////////////POPULER STYLE SECTION/////////////////////// */
+
+.pplr-styles{
+    background-color: rgb(1, 1, 52);
+    width: 100%;
+    
+}
+.pplr-styles h1{
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(255, 247, 0);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+.pplr-styles-links{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px
+}
+.pplr-lnk a{
+    text-decoration: none;
+    color: wheat;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#pplr-all{
+    border-bottom: 2px solid yellow;
+}
+.pplr-lnk a:hover{
+    border-bottom: 2px solid yellow;
+}
+.card{
+    margin-top: 40px;
+    text-align: left;
+    width: 20.7%;
+    height: 620px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: whitesmoke;
+}
+#fav-pplr-style{
+    position: absolute;
+    margin-left: 275px;
+    color: wheat;
+    
+}
+.collections{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.card img{
+    width: 100%;
+}
+.ln-one{
+    margin-top: 0 !important;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+.ln-two{
+    font-weight: 700;
+    margin-top: 0 !important;
+    margin-bottom: 0 !;
+    margin-bottom: 0 !important;
+}
+.deleted,.price{
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.off{
+    color: rgb(224, 249, 4);
+}
+.card i{
+    margin-top: 15px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.card span{
+    margin-left: 10px;
+    color: rgb(251, 245, 245);
+}
+#peach{
+    color: rgb(5, 5, 5);
+}
+#pink{
+    color: rgb(237, 230, 231);
+}
+.black{
+    color: black;
+}
+.hl{
+    border-bottom: 2px solid rgb(244, 156, 156);
+    width: 90%;
+    margin-left: 70px;
+}
+.top-selling-div{
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+          margin-top: 50px;
+}
+.top-selling-left img{
+          width: 700px;
+          height: 500px;
+          margin-left: 100px;
+          margin-top: 50px;
+}
+.logo-heading img{
+    width: 700px;
+}
+
+
